@@ -1,1 +1,2 @@
 # gif-generator
+This application displays 10 gifs related to the clicked button. Clicking on a gif will turn it into a still image. If you would like to add a new button, type the topic you would like to search into the add button form and click add button.
