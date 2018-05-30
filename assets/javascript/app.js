@@ -11,7 +11,7 @@ $(".container").on("click", ".carbutton", function(){
     $("#gifdump").empty()
     var searchterm = $(this).text()
     console.log(searchterm)
-    var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=vM7WfnHiEiI8wUINF70OPxLa9Le6f3zE&q=" + searchterm;
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=vM7WfnHiEiI8wUINF70OPxLa9Le6f3zE&q=" + searchterm;
 
     $.ajax({
         url: queryURL,
